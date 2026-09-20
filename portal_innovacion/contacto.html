@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Portal de Innovación Digital</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+    <header>
+        <center>
+            <h1>Portal de Innovación Digital</h1>
+            <nav>
+                <a href="index.html">Inicio</a> | 
+                <a href="acerca.html">Acerca del Proyecto</a> | 
+                <a href="tecnologias.html">Tecnologías</a> | 
+                <a href="proyectos.html">Proyectos</a> | 
+                <a href="galeria.html">Galería</a> | 
+                <a href="recursos.html">Recursos</a> | 
+                <a href="contacto.html"><b>Contacto</b></a>
+            </nav>
+        </center>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Formulario de Registro y Contacto</h2>
+            <p>Completa el siguiente formulario para registrar tus datos y enviarnos tus comentarios técnicos sobre el portal (no requiere conexión a servidor remoto):</p>
+
+            <!-- Formulario Estructurado (Práctica 11) -->
+            <form>
+                <p>
+                    <label for="input_nombre">Nombre Completo:</label><br>
+                    <input type="text" id="input_nombre" name="nombre" size="40" required>
+                </p>
+
+                <p>
+                    <label for="input_correo">Correo Electrónico:</label><br>
+                    <input type="email" id="input_correo" name="correo" size="40" required>
+                </p>
+
+                <p>
+                    <label for="select_interes">Área Tecnológica de Interés:</label><br>
+                    <select id="select_interes" name="interes">
+                        <option value="ia">Inteligencia Artificial</option>
+                        <option value="iot">Internet de las Cosas (IoT)</option>
+                        <option value="ciberseguridad">Ciberseguridad Informática</option>
+                        <option value="software">Desarrollo de Software Web</option>
+                        <option value="robotica">Robótica e Automatización</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="txt_mensaje">Mensaje o Comentarios:</label><br>
+                    <textarea id="txt_mensaje" name="mensaje" rows="6" cols="38" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar Formulario</button>
+                    <button type="reset">Limpiar Campos</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <center>
+            <p><small>Portal Académico - Ingeniería en Innovación Digital © 2026. <a href="../index.html">Volver a Raíz</a></small></p>
+        </center>
+    </footer>
+
+</body>
+</html>
