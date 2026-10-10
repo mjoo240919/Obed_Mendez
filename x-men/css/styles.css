@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', 'Verdana', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    background: #0b1020;
+    color: #eef2ff;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #ffd400;
+}
+
+h2 {
+    font-size: 3.2rem;
+    color: #ffd400;
+}
+
+p {
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.entrada-blog a {
+    display: inline-block;
+    background: #ffd400;
+    color: #0b1020;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+
+    /* Flexbox - 2 columnas */
+    .dos-columnas {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .dos-columnas .entrada-blog {
+        flex: 0 0 calc(50% - 2rem);
+    }
+
+    /* Grid - 3 columnas iguales */
+    .tres-columnas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+
+    /* Grid con áreas: contenido + 2 sidebars */
+    .contenedor-grid {
+        display: grid;
+        grid-template-areas: "izquierda contenido derecha";
+        grid-template-columns: 1fr 2fr 1fr;
+        column-gap: 2rem;
+    }
+
+    .contenido-principal {
+        grid-area: contenido;
+    }
+
+    .sidebar-1 {
+        grid-area: izquierda;
+    }
+
+    .sidebar-2 {
+        grid-area: derecha;
+    }
+}
