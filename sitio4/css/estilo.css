@@ -1,0 +1,58 @@
+header {
+    background-color: #cbcbd4;
+    border-bottom-style: dashed;
+    border-width: 5px;
+    text-align: center;
+    font-family: 'Arial Black', 'sans-serif';
+    margin: 15px;
+    font-size: 40px;
+    color: rgb(40, 40, 244);
+}
+
+main {
+    margin: 15px;
+    font-size: 22px;
+    font-family: 'Sylfaen';
+    font-style: bold;
+    text-align: justify;
+    color: #454545;
+}
+
+/*del main solo se pondra el estilo en h1*/
+main h1{
+    font-size: 40px;
+    color: #454545;
+    font-family: 'Times New Roman', 'sans-serif';
+}
+
+mark {
+    background-color: #fef9c2;
+    color: #090909;
+}
+
+.img_left {
+    width: 77%;
+    float: left;
+    position: relative;
+}
+
+.text_right {
+    width: 23%;
+    float: right;
+    position: relative;
+}
+
+.img_left img {
+    width: 98%;
+    height: 400px;
+}
+
+footer {
+    margin: 15px;
+    font-size: 22px;
+    font-family: 'Sylfaen';
+    font-style: bold;
+    text-align: justify;
+    color: #454545;
+    clear: both;
+}

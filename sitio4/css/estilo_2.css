@@ -1,0 +1,57 @@
+header {
+    background-color: #cbcbd4;
+    border-bottom-style: dashed;
+    border-width: 5px;
+    text-align: center;
+    font-family: 'Arial Black', 'sans-serif';
+    margin: 15px;
+    font-size: 40px;
+    color: rgb(40, 40, 244);
+}
+
+main {
+    margin: 15px;
+    font-size: 22px;
+    font-family: 'Sylfaen';
+    font-style: bold;
+    text-align: justify;
+    color: #454545;
+}
+
+main b {
+    font-size: 22px;
+    color: #090909;
+    font-family: 'Times New Roman', 'sans-serif';
+}
+
+mark {
+    background-color: #fef9c2;
+    color: #090909;
+}
+
+.img_right {
+    width: 60%;
+    float: right;
+    position: relative;
+}
+
+.text_left {
+    width: 40%;
+    float: left;
+    position: relative;
+}
+
+.img_right img {
+    width: 98%;
+    height: 458px;
+}
+
+footer {
+    margin: 15px;
+    font-size: 22px;
+    font-family: 'Sylfaen';
+    font-style: bold;
+    text-align: justify;
+    color: #454545;
+    clear: both;
+}
