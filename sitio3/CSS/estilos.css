@@ -1,0 +1,15 @@
+H1 { 
+		text-align: center; 
+		color: blue; 
+		font: italic large “Arial", “Verdana”; 
+}
+table {
+	border-collapse: collapse; /* Une los bordes de celdas adyacentes en uno solo */
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid #333;    /* Grosor, estilo (solid/dashed/dotted) y color */
+	padding: 8px;              /* Espacio interno para que no quede pegado el texto */
+	text-align: left;
+}
